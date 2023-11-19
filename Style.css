@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+}
+
+.hRight a:hover {
+    color: #900;
+}
+
+.hRight {
+    float: right;
+    text-align: right;
+}
+
+.gNav{
+    clear: both;
+    border-bottom: 2px solid #333;
+}
+
+.gNav .navi{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-group .btn-custom{
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    color: white;
+    background-color: green;
+    border-radius: 50rem;
+    padding: 10px 24px;
+}
+
+.btn-group .btn-custom:hover{
+    background-color: darkgreen;
+}
+
+.input-group {
+    width: 400px;
+    height: 40px;
+}
+
+.input-group .input-group-text{
+    background-color: green;
+    color: white;
+}
+
+.body {
+    clear: both;
+    background-color: whitesmoke;
+    display: table-row;
+}
+
+aside.article,
+aside.right,
+section.content {
+    display: table-cell;
+    vertical-align: top;
+}
+
+aside.article {
+    width: 20%;
+}
+
+
+aside.right {
+    width: 20%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.article .articleB {
+    border: 1px solid blue;
+    border-radius: 2px;
+    margin: 3%;
+}
+
+.article .articleB p {
+    padding: 3%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.article .articleB a:hover {
+    color: red;
+}
+
+.article .articleB h4 {
+    color: red;
+    background-color: #E1EBF4;
+    padding: 2%;
+}
+
+.article .articleB select {
+    margin: 5% 13%;
+    padding: 2%;
+    text-align: center;
+}
+
+.content .title {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+}
+
+.content .product-box {
+    width: 250px;
+    height: 270px;
+    text-align: center;
+    border: 1px dashed black;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.content .product-box .photo {
+    width: 40%;
+    height: 60%;
+}
+
+.content .product-box .buy{
+    width: 20%;
+    height: 10%;
+}
+.product-box .name{
+   font-size: large;
+}
+.product-box .name:hover {
+    font-style: italic;
+}
+
+.product-box .photo:hover {
+    transform: scale(1.1);
+}
+
+footer.foot {
+text-align: center;
+background-color: rgb(42, 223, 32);
+padding: 1%;
+}

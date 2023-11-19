@@ -1,0 +1,16 @@
+body {
+    background-color: whitesmoke;
+}
+
+.contact .contactForm {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 10%;
+}
+
+.contact .contactForm .tForm {
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+}

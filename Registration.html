@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="regis.css">
+</head>
+
+<body>
+    <header>
+        <div class="hLeft">
+            <img src=".\img\logoABCbook.png" style="width: 200px; height: 100px;"></src>
+        </div>
+        <div class="hRight">
+            <i class="fa fa-user" aria-hidden="true"></i><a href="login.html">Log in |</a>
+            <a href="Registration.html">Registration</a>
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i><a href="#">Cart</a>
+        </div>
+    </header>
+    <nav id="gNav">
+        <div class="hNav">
+            <input type="text" name="find" placeholder="Enter the title of the book...">
+            <button type="submit" name="submit">Find books</button>
+        </div>
+        <ul class="hButton">
+            <li><a href="Homepage.html">HOME PAGE</a></li>
+            <li><a href="Lab1_2p5.html">INTRODUCTION</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <div class="body">
+        <article>
+            <aside class="article">
+                <div class="articleB">
+                    <p><b>BOOKS BY SUBJECT</b></p>
+                    <ul type="square">
+                        <li><a href="">Foreign language</a></li>
+                        <li><a href="">Information technology</a></li>
+                        <li><a href="">Law</a></li>
+                        <li><a href="">Literature</a></li>
+                        <li><a href="">Science and technology</a></li>
+                        <li><a href="">Agriculture</a></li>
+                        <li><a href="">History and geography</a></li>
+                        <li><a href="">Economics</a></li>
+                        <li><a href="">Listen to the song</a></li>
+                    </ul>
+                </div>
+                <div class="articleB">
+                    <p><b>BOOKS BY PUBLISHER</b></p>
+                    <ul type="square">
+                        <li><a href="">Young publishers</a></li>
+                        <li><a href="">Statistics Publishing House</a></li>
+                        <li><a href="">Bronze needle</a></li>
+                        <li><a href="">National University</a></li>
+                        <li><a href="">Artistic craft culture</a></li>
+                        <li><a href="">Culture</a></li>
+                        <li><a href="">Labor-Society</a></li>
+                        <li><a href="">Science & Engineering</a></li>
+                    </ul>
+                </div>
+            </aside>
+            <section class="content">
+                <h2 class="title">
+                    <center>MEMBER REGISTRATION</center>
+                </h2>
+                <div class="registration">
+                    <form method="post" action="#" name="dangky" class="form">
+                        <fieldset>
+                            <legend>Personal information</legend>
+                            <table>
+                                <tr>
+                                    <td><label>Full name:</label></td>
+                                    <td><input type="text"></td>
+                                </tr>
+                                <tr>
+                                    <td><label>Birthday:</label></td>
+                                    <td>
+                                        <select name="date">
+                                            <option value="v1">1</option>
+                                            <option value="v2">2</option>
+                                            <option value="v3">3</option>
+                                            <option value="v4">4</option>
+                                            <option value="v5">5</option>
+                                            <option value="v6">6</option>
+                                            <option value="v7">7</option>
+                                            <option value="v8">8</option>
+                                            <option value="v9">9</option>
+                                            <option value="v10">10</option>
+                                            <option value="v11">11</option>
+                                            <option value="v12">12</option>
+                                        </select>
+                                        <label>Month</label>
+                                        <select name="month">
+                                            <option value="v1">1</option>
+                                            <option value="v2">2</option>
+                                            <option value="v3">3</option>
+                                            <option value="v4">4</option>
+                                            <option value="v5">5</option>
+                                            <option value="v6">6</option>
+                                            <option value="v7">7</option>
+                                            <option value="v8">8</option>
+                                            <option value="v9">9</option>
+                                            <option value="v10">10</option>
+                                            <option value="v11">11</option>
+                                            <option value="v12">12</option>
+                                        </select>
+                                        <label>Year</label>
+                                        <input type="text" style="width:30px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label>Gender:</label></td>
+                                    <td><input type="radio" name="gender">Male
+                                        <input type="radio" name="gender">Female
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label>Address:</label></td>
+                                    <td><textarea cols="20"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td><label>Telephone:</label></td>
+                                    <td><input type="tel"></td>
+                                </tr>
+                                <tr>
+                                    <td><label>Email:</label></td>
+                                    <td><input type="email" required></td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Credentials</legend>
+                            <table>
+                                <tr>
+                                    <td><label>Username:</label></td>
+                                    <td><input type="text" required></td>
+                                </tr>
+                                <tr>
+                                    <td><label>password:</label></td>
+                                    <td><input type="password" required></td>
+                                </tr>
+                                <tr>
+                                    <td><label>Confirm password:</label></td>
+                                    <td><input type="password" required></td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                    </form>
+                    <p>
+                        <center><button type="submit" class="button">Login</button>
+                        <button type="reset" class="button">Cancel</button></center>
+                    </p>
+                </div>
+            </section>
+            <aside class="article">
+                <div class="articleB">
+                    <p><b>BESTSELLER</b></p>
+                    <marquee direction="up" scrollamount="5" scrolldelay="100" onmousemove="stop()"
+                        onmouseout="start()">
+                        <a href="#"><img src=.\img\EnglishForTech.jpg style="width: 20%; height: 30%;">English
+                            For
+                            Tech</a><br>
+                        <a href="#"><img src=.\img\BARC.png style="width: 20%; height: 30%;">BARC Computer
+                            Science</a><br>
+
+                        <a href="#"><img src=.\img\VisualBasic.png style="width: 20%; height: 30%;">Visual
+                            Basic</a><br>
+
+                        <a href="#"><img src=.\img\harrypotter.png style="width: 20%; height: 30%;">Harry
+                            Potter</a>
+                    </marquee>
+                </div>
+                <div class="articleB">
+                    <p><b>THE WEBSITE LINK</b></p>
+                    <select name="link">
+                        <option value="v1">--- Select the linking page ---</option>
+                        <option value="v2"><a href="https://lib.eiu.edu.vn/">Eastern International
+                                University</a></option>
+                        <option value="v2"><a href="https://eiu.edu.vn/">Eastern International University</a>
+                        </option>
+                    </select>
+                </div>
+                <div class="articleB">
+                    <p><b>ACCESS STATISTICS</b></p>
+                    <h4>Total Access: 500</h4>
+                    <h4>Online: 3</h4>
+                </div>
+            </aside>
+        </article>
+    </div>
+    <footer class="foot">
+        <p> ©2016 - ABCBookStore.Allright Reserved</p>
+        <p>Website is developed to be used as a hands-on exercise in Web Programming</p>
+        <p>Email: abcbookstore@gmail.com</p>
+    </footer>
+</body>
+
+</html>
