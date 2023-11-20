@@ -28,18 +28,9 @@
 
             document.getElementById('date').textContent = dateTime;
 
-            var options = {
-                timeZone: 'Asia/Bangkok',
-                hour12: false,
-                weekday: 'short',
-                day: 'numeric',
-                month: 'short',
-                year: 'numeric',
-                timeZoneOffset: 420
-            };
-            var fullTime = date.toLocaleString('en-US', options);
+            var fullTime = date;
 
-            document.getElementById('full').textContent = fullTime;
+            document.getElementById('full').innerText = fullTime;
         }
 
         function getDayName(dayIndex) {
