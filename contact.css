@@ -2,15 +2,31 @@ body {
     background-color: whitesmoke;
 }
 
-.contact .contactForm {
+.contact {
+    width: 100%;
+    min-height: 100vh;
     display: flex;
+    flex-flow: column;
     justify-content: center;
-    padding: 0;
-    margin: 10%;
+    align-items: center;
+    padding: 20px;
 }
 
-.contact .contactForm .tForm {
+.contact .box {
     display: flex;
+    flex-flow: column;
     justify-content: center;
-    background-color: orange;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.head p {
+    font-weight: bold;
+}
+
+.box button {
+    position:absolute;
+    transform: translateX(-50%);
 }
